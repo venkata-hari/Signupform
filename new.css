@@ -1,0 +1,181 @@
+.animate1{
+  animation:form1 0.6s
+}
+@keyframes form1 {
+  from{
+    transform: scaleX(0)
+  }
+  to{
+    transform: scaleY(1)
+  }
+}
+
+#box1{
+  display: none;
+  background: white;
+  margin-top: 30px;
+}
+
+#fa{margin-left: 70px}
+   .fa {
+       padding: 8px;
+       font-size: 20px;
+       width: 30px;
+       text-align: center;
+       text-decoration: none;
+       border-radius: 2px;
+   }
+
+   .fa-facebook {
+       background: #3B5998;
+       color: white;
+   }
+
+   .fa-twitter {
+       background: #55ACEE;
+       color: white;
+   }
+
+   .fa-instagram {
+       background-image:
+            linear-gradient(27deg,orange ,rgb(255,20,147) 70.71% ),
+            linear-gradient(36deg,red,yellow,blue 70.71%);
+            color:white;
+
+   }
+
+   .close,.close1 {
+       float: right;
+       font-size: 30px;
+       font-weight: bolder;
+       cursor: pointer;
+   }
+
+   #btn {
+       background: green;
+       border: none;
+       color: white;
+       padding: 8px;
+       font-size: 15px;
+       border-radius: 5px;
+       outline: none;
+   }
+
+   #btn:focus {
+       background-color: red;
+   }
+
+   #box{
+       background: white;
+
+       margin-top: 30px;
+       display: none;
+       box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+       padding: 11px 20px;
+
+       width: 300px;
+       height: 550px;
+   }
+   #box1{
+
+     box-shadow: 0 1px 2px  rgba(0, 0, 0, 0.5);
+     width: 280px;
+     height: 270px;
+     padding: 10px 15px;
+   }
+
+   .btn {
+       padding: 6px;
+       width: 270px;
+       background: green;
+       color: white;
+       border: none;
+       box-shadow: 0px 2px 3px green;
+   }
+
+   .material-icons
+   {
+       font-size: 20px;
+       float: left;
+       margin-top: 15px;
+       margin-left: 250px;
+       color: red;
+       display: none;
+       position: absolute;
+   }
+   .fa-check-circle {
+       font-size: 20px;
+       float: left;
+       margin-top: 7px;
+       margin-left: 237px;
+       color: red;
+       display: none;
+       position: absolute;
+   }
+
+   #check,
+   #check1,
+   #check2,
+   #check3 {
+       background-color: green;
+       padding: 8px;
+       color: white;
+       float: left;
+       margin-top: 10px;
+       border-radius: 2px;
+   }
+
+   #check {
+       width: 30px;
+       text-align: center;
+   }
+
+   input[type=text],
+   input[type=email],
+   input[type=password] {
+       padding: 10px;
+       margin-top: 10px;
+       width: 230px;
+       background-color: #f1f1f1;
+       border: none;
+   }
+
+   input[type=text]:focus,
+   input[type=email]:focus,
+   input[type=password]:focus {
+       background-color: #ddd;
+       outline: none;
+   }
+
+   #file {
+       box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.377);
+       padding: 10px;
+       color: black;
+       width: 90%;
+   }
+
+   #username,
+   #email,
+   #psw,
+   #psw1 {
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold;
+       margin-top: 20px;
+   }
+
+   #div {
+       text-align: center;
+   }
+
+   .animate {
+       animation: hari 0.8s
+   }
+
+   @keyframes hari {
+       from {
+           transform: scale(0)
+       }
+       to {
+           transform: scale(1)
+       }
+   }

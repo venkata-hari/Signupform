@@ -1,0 +1,95 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="new.css" rel="stylesheet">
+</head>
+
+<body id=body>
+    <button id=btn onclick="button()"><b>Sign Up</b></button>
+    <div id=box class=animate>
+      <span class=close>&times;</span>
+        <div id=fa>
+            <a href="https://www.facebook.com/programmer.me1" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com/iharicharan" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/technologyjokes" class="fa fa-instagram"></a>
+        </div>
+
+        <form onsubmit="return validate()" name="vform" id=form>
+
+            <div id=username>
+                <label>Username</label> <br><i class="material-icons" id=icon>error</i> <i class="fa fa-check-circle" id=circle></i>
+                <i class="fa fa-user icon" id=check></i>
+                <input type="text" name=username placeholder="enter username">
+
+
+                <small id=name></small>
+
+            </div>
+            <div id=email>
+                <label>Email</label>
+                <br><i class="material-icons" id=icon1>error</i> <i class="fa fa-check-circle" id=circle1></i>
+                <i class="fa fa-envelope icon" id=check1></i>
+
+                <input type="email" name=email placeholder="enter Email">
+
+                <small id=mail></small>
+            </div>
+            <div id=psw>
+                <label>Password</label> <br><i class="material-icons" id=icon2>error</i> <i class="fa fa-check-circle" id=circle2></i>
+                <i class="fa fa-key icon" id=check2></i>
+                <input type="password" name=psw placeholder="enter password">
+
+            </div>
+            <div id=psw1>
+                <label>Conform Password</label> <br> <i class="material-icons" id=icon3>error</i> <i class="fa fa-check-circle" id=circle3></i>
+                <i class="fa fa-key icon" id=check3></i>
+                <input type="password" name=psw1 placeholder="conform password">
+
+                <small id=password1></small>
+            </div><br>
+
+            <div>
+                <input type="file" accept="video/*" id=file>
+            </div><br>
+            <div>
+                <input type="submit" name="register" value="Register" class="btn">
+            </div>
+            <div id=div>
+                <p>Already have an account?<a style="cursor:pointer; color:blue;" id=text> Sign in</a></p>
+            </div>
+        </form>
+      </div>
+        <div id=box1 class=animate1>
+          <span class=close1 "><b>&times;</b></span>
+       <form onsubmit="return validate1()" name=vform1><br>
+       <div id=email>
+                <label>Email</label>
+                <br>
+                <i class="fa fa-envelope icon" id=check1></i>
+
+                <input type="email" name=email1 placeholder="enter Email">
+
+
+            </div>
+            <div id=psw>
+                <label>Password</label> <br>
+                <i class="fa fa-key icon" id=check2></i>
+                <input type="password" name=password1 placeholder="enter password">
+<small id=small2></small>
+            </div><br>
+            <div>
+                <input type="submit" name="register" value="Login" class="btn">
+            </div>
+          </form>
+        </div>
+
+    <script src="new.js">
+    </script>
+</body>
+
+</html>
